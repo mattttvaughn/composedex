@@ -30,6 +30,6 @@ class PokemonRepository(
     }
 
     private fun PokemonResponse.asPokemon() : Pokemon {
-        return Pokemon( name = name, url = url )
+        return Pokemon(name = name, url = url )
     }
 }
