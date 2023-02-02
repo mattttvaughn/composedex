@@ -7,13 +7,16 @@ Victor Binhara Stahelin on Dribbble.
 
 TODOS
 
- - [ ] Display all Pokemon on one page
- - [ ] Integrate hilt + Compose (+ ViewModel) + (Koin?)
+ - [X] Display all Pokemon on one page
+ - [X] Integrate ~~hilt~~ Koin + Compose (+ ViewModel)
+    - Using Koin rn as this is what we'll be using on T-Mobile, but can do Hilt eventually
  - [ ] Pagination?
    - Custom impl vs. paging3
  
 Stretch Goals
  - [ ] Details screen
+    - What to use for navigation??? `compose-navigation`? going to go to TMO
+      Android sync and see what people think
  - [ ] CoordinatorLayout/Toolbar + NestedScrollView if possible
 
 Eventually:
